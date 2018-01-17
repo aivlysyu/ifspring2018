@@ -1,5 +1,11 @@
 # ifspring2018
-<p><b> hello world! </b></p>
+
+<head>
+ <b> hello world! </b>
+</head>
+
 <br>
 
-<p><i>I'm sylvia and this is a test!<i></p>
+<body>
+<i>I'm sylvia and this is a test!<i>
+ </body>
