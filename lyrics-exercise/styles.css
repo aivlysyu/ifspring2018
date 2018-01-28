@@ -14,10 +14,8 @@ h1 {
 }
 
 h2 {
-        position: fixed;
         color: grey;
         font-size: 18px;
-        z-index: -1;
 }
 
 p {
