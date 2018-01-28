@@ -1,4 +1,8 @@
 html {
-        color:black;
-        font-family:garamond;
-        font-size:11px;} 
+        color: black;
+        font-family: garamond;
+        font-size: 11px;
+        margin-left: 300px; 
+        margin-right: 300px;
+        text-align: center;
+} 
