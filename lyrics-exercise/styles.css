@@ -15,7 +15,8 @@ h1 {
 
 h2 {
         position: fixed;
-        font-size: 20px;
+        color: grey;
+        font-size: 18px;
         z-index: -1;
 }
 
