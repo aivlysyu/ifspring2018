@@ -15,9 +15,10 @@ h1 {
 
 h2 {
         position: fixed;
+        color: "333333";
         z-index: -1;
-        font-size: 18px;
-        margin-top: 2cm;
+        font-size: 20px;
+        margin-top: 1.5cm;
 }
 
 p {
