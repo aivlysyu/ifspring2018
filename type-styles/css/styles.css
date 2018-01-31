@@ -17,21 +17,21 @@ body {
 h1 {
 	font-size: 30px;
 	letter-spacing: 6px;
-	color: #BDB76B;
+	color: #8B0000;
 	line-height: 5px;
 }
 
 
 h2 {
 	font-size: 25px;
-	color: #EEE8AA;
+	color: #DC143C;
 	letter-spacing: 2px;
 	line-height: 3px;
 }
 
 h3 {
 	font-size: 15px;
-	color: #FFDAB9;
+	color: #E9967A;
 	letter-spacing: 2px;
 	line-height: 6px;
 }
