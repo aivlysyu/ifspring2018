@@ -3,6 +3,10 @@ html {
 
 }
 
+div {
+	text-align: center;
+}
+
 body {
 	margin-left: 250px;
 	margin-right: 250px;
@@ -11,7 +15,6 @@ body {
 }
 
 h1 {
-	text-align: center;
 	font-size: 30px;
 	letter-spacing: 6px;
 	color: #BDB76B;
