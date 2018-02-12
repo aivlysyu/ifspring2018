@@ -1,1 +1,67 @@
+html {
+        font-family: Crimson Text;
+        font-size: 15px;
+        margin-left: 190px; 
+        margin-right: 190px;
+        margin-bottom: 100px;
+        text-align: center;
+} 
 
+
+div {
+    margin-top: 50px;
+}
+
+
+#mitski { 
+        z-index: 10;
+        position: fixed;
+        left: 1020px;
+        top: 50px;
+ }
+
+ .body {
+    height: 1050px;
+    width: 400px;
+    background-color: white;
+    opacity: 0.45;
+}
+
+body {
+    background-image: url("http://www.poppressinternational.com/wp-content/uploads/2017/05/Mitski_051017-2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center
+
+}
+
+h1 {    color: /* #003300; */ white;
+        position: fixed;
+        z-index: -1;
+        font-size: 21px;
+        letter-spacing: 1.5px;
+        left: 1000px;
+        top:250px;
+}
+
+h2 {
+        position: fixed;
+        color: /* black; */ white;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        z-index: -1;
+        font-size: 17px;
+        top:280px;
+        left: 1000px;
+}
+
+h3 {
+     color: #75874b;
+     font-size: 17px; 
+     letter-spacing: 2px;
+     line-height: 0.5;  
+}
+
+p {
+        line-height: 1.6;
+        letter-spacing: 1.1;
+}
