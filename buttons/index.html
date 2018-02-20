@@ -137,7 +137,6 @@
 				box-sizing: border-box;
 				margin: auto;
 				padding-top: 65px;
-				-webkit-transform 1s ease-in-out;
 				transition: transform 1s ease-in-out;
 			}
 
@@ -156,10 +155,12 @@
 				font-size: 100px;
 				margin-top: 45px;
 				padding-top: 8px;
+				transition: 1s;
 			}
 
 			a#btn_apple:hover {
 				text-shadow: 18px 18px 7px rgba(150, 150, 150, 0.58);
+				transition: 1s;
 			}
 
 			a#btn_craigslist {
@@ -167,10 +168,12 @@
 				box-sizing: border-box;
 				margin: auto;
 				margin-top: 45px;
+				transition: 1s;
 			}
 
 			a#btn_craigslist:hover {
-				-webkit-filter: invert(80%);
+				filter: blur(2px);
+				transition: 1s;
 			}
 
 			a#btn_lyft {
@@ -178,10 +181,12 @@
 				box-sizing: border-box;
 				margin: auto;
 				padding-top: 50px;
+				transition: 1s;
 			}
 
 			a#btn_lyft:hover {
 				-webkit-transform: scale(2);
+				transition: 1s;
 			}
 
 			a#btn_samsung {
@@ -197,6 +202,56 @@
 				transition: 1s;
 			}
 
+
+			a#btn_cn {
+				display: block;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+			}
+
+			a#btn_cn:hover {
+				-webkit-filter:invert(100%);
+			}
+
+			a#btn_nike {
+				display: block;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 60px;
+				filter: grayscale(100%);
+			}
+
+			a#btn_nike:hover {
+				-webkit-filter:saturate(2);
+			}
+
+			a#btn_mbg {
+				display: block;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 45px;
+				transition: 1s;
+			}
+
+			a#btn_mbg:hover {
+        	filter: opacity(50%);
+        	transition: 1s;
+			}
+
+			a#btn_tesla {
+				display: block;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 45px;
+				transition: 1s;
+			}
+
+			a#btn_tesla:hover {
+				-webkit-transform: scale(0.5);
+				transition: 1s;
+			}
+
 		</style>
 	</head>
 
@@ -204,7 +259,7 @@
 		
 		<div id="main_content">
 
-			<h1>Button Styling &mdash;Sylvia Yu</h1>
+			<h1>Button Styling &mdash; Sylvia Yu</h1>
 			
 			<div class="button_container">
 				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
@@ -237,16 +292,16 @@
 				<a href="http://www.samsung.com/us/" target="_blank" id="btn_samsung"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2000px-Samsung_Logo.svg.png" height="65%" width="65%"></a>
 			</div>
 			<div class="button_container">
-				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn">Cartoon Network</a>
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn"><img src="http://logos-download.com/wp-content/uploads/2016/10/Cartoon_Network_logo_black.png" height="60%" width="60%"></a>
 			</div>
 			<div class="button_container">
-				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike">Nike</a>
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike"><img src="http://theshoegame.com/wp-content/uploads/2017/03/nike-logo-copy.jpg" height="60%" width="60%"></a>
 			</div>
 			<div class="button_container">
-				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_mbg">Missouri Botanical Garden</a>
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_mbg"><img src="https://i2.wp.com/joshuatreegenome.org/wp-content/uploads/2016/03/MoBot.png?w=756&h=567&crop&ssl=1" height="80%" width="80%"></a>
 			</div>
 			<div class="button_container">
-				<a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla">Tesla Motors</a>
+				<a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png" height="50%" width="50%"></a>
 			</div>
 			<div class="button_container">
 				<a href="http://thecolorrun.com/" target="_blank" id="btn_colorrun">The Color Run</a>
