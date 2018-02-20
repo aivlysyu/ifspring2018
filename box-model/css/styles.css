@@ -14,7 +14,8 @@ header {
 	color: white;
 	text-align: center;
 	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
-	background-image: url("./images/header.jpg");
+	/* background-image: url("./images/header.jpg"); */
+	background-image: url("https://image.ibb.co/ftBFax/header.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
