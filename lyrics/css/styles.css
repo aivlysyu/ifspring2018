@@ -64,27 +64,26 @@ a#btn_site {
 }
 
 a#btn_fb:hover {
-				filter: blur(2px);
+				filter: brightness(50%);
 				transition: 0.5s;
 			}
 
 a#btn_insta:hover {
-				filter: blur(2px);
-				transition: 0.5s;
+					filter: brightness(50%);				
+					transition: 0.5s;
 			}			 
 
 a#btn_twitter:hover {
-				filter: blur(2px);
+				filter: brightness(50%);
 				transition: 0.5s;
 			}
 
 a#btn_site:hover {
-				filter: blur(2px);
+				filter: brightness(50%);
 				transition: 0.5s;
 			}
 
 			
-
 
 section#lyrics {
 	margin-top: 125px;
