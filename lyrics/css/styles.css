@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/mitski_bg.jpg");
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: lighter;
+	background-attachment: fixed;
+	background-origin: content-box;
+}
+
+h1 {
+	font-family: 'Shrikhand', cursive;
+	font-size: 27px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	margin-bottom: -15px;
+}
+
+h2 {
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#corner {
+	color: /* #C7BEB8; */ white;
+	text-align: right;
+	position: fixed;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+	float: right;
+	left: 1120px;
+	top: 530px;
+}
+
+
+div.button {
+	float: right;
+	position: fixed;
+	display: inline-block;
+	top: 670px;
+	left: 1175px;
+}
+
+a#btn_fb {
+	transition: 0.5s;
+}
+
+a#btn_insta {
+	transition: 0.5s;
+	margin-left: 4px;
+}
+
+a#btn_twitter {
+	transition: 0.5s;
+	margin-left: 4px;
+}
+
+a#btn_site {
+	transition: 0.5s;
+	margin-left: 4px;
+}
+
+a#btn_fb:hover {
+				filter: blur(2px);
+				transition: 0.5s;
+			}
+
+a#btn_insta:hover {
+				filter: blur(2px);
+				transition: 0.5s;
+			}			 
+
+a#btn_twitter:hover {
+				filter: blur(2px);
+				transition: 0.5s;
+			}
+
+a#btn_site:hover {
+				filter: blur(2px);
+				transition: 0.5s;
+			}
+
+			
+
+
+section#lyrics {
+	margin-top: 125px;
+	height: 420px;
+	width: 450px;
+	overflow: scroll;
+}
+
+::-webkit-scrollbar { width: 0 !important }
+
+p {	
+	box-sizing: content-box;
+	margin-left: 150px;
+	font-weight: 300;
+	font-family: /* 'Crimson Text', serif; */ 'Roboto', sans-serif;
+	font-size: 11px;
+	color: white;
+	line-height: 1.8;
+	letter-spacing: 2.5px;
+	text-align: left;
+	transition: 0.5s;
+}
+
+
+p#one {
+	max-width: 300px;
+}
+
+p#two {
+	margin-top: -20px;
+	max-width: 70px;
+	font-size: 10px;
+	letter-spacing: 7px;
+}
+
+p#three {
+	margin-top: -20px;
+	max-width: 530px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p#four {
+	margin-top: -20px;
+	max-width: 280px;
+	font-size: 10px;
+	letter-spacing: 7px;
+}
+
+p#five {
+	margin-top: -20px;
+	max-width: 530px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p:hover {
+	color: #A99B1E;
+	transition: 0.5s;
+}
