@@ -31,8 +31,8 @@ h2 {
 	-webkit-font-smoothing: antialiased;
 	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
 	float: right;
-	left: 1120px;
-	top: 550px;
+	left: 80%;
+	top: 70%;
 }
 
 
@@ -40,8 +40,8 @@ div.button {
 	float: right;
 	position: fixed;
 	display: inline-block;
-	top: 690px;
-	left: 1175px;
+	top: 85%;
+	left: 83.5%;
 }
 
 a#btn_fb {
