@@ -85,7 +85,7 @@ a#btn_site:hover {
 
 			
 section#lyrics {
-	margin-top: 150px;
+	margin-top: 125px;
 	height: 420px;
 	width: 450px;
 	overflow: scroll;
@@ -129,4 +129,22 @@ p#five {
 p:hover {
 	color: #A99B1E;
 	transition: 0.5s;
+}
+
+#audio {
+	margin-top: 30px;
+	margin-left: 170px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+	transition: 0.3s;
+	filter: brightness(50%);
 }
