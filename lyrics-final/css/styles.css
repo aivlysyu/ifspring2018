@@ -138,8 +138,10 @@ p:hover {
 
 button {
     background-color: transparent;
+    background-repeat: no-repeat;
     border: none;
     overflow: hidden;
+    outline: none;
     cursor: pointer;
     transition: 0.3s;
 }
