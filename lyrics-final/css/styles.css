@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/mitski_bg.jpg");
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: lighter;
+	background-attachment: fixed;
+	background-origin: content-box;
+}
+
+h1 {
+	font-family: 'Shrikhand', cursive;
+	font-size: 27px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	margin-bottom: -15px;
+}
+
+h2 {
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#corner {
+	color: /* #C7BEB8; */ white;
+	text-align: right;
+	position: fixed;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+	float: right;
+	left: 78%;
+	top: 67%;
+}
+
+
+div.button {
+	float: right;
+	position: fixed;
+	display: inline-block;
+	top: 85%;
+	left: 81.5%;
+}
+
+a#btn_fb {
+	transition: 0.5s;
+}
+
+a#btn_insta {
+	transition: 0.5s;
+	margin-left: 4px;
+}
+
+a#btn_twitter {
+	transition: 0.5s;
+	margin-left: 4px;
+}
+
+a#btn_site {
+	transition: 0.5s;
+	margin-left: 4px;
+}
+
+a#btn_fb:hover {
+				filter: brightness(50%);
+				transition: 0.5s;
+			}
+
+a#btn_insta:hover {
+					filter: brightness(50%);				
+					transition: 0.5s;
+			}			 
+
+a#btn_twitter:hover {
+				filter: brightness(50%);
+				transition: 0.5s;
+			}
+
+a#btn_site:hover {
+				filter: brightness(50%);
+				transition: 0.5s;
+			}
+
+			
+section#lyrics {
+	margin-top: 150px;
+	height: 420px;
+	width: 450px;
+	overflow: scroll;
+}
+
+::-webkit-scrollbar { width: 0 !important }
+
+p {	
+	box-sizing: content-box;
+	margin-left: 175px;
+	font-family: /* 'Crimson Text', serif; */ 'Roboto', sans-serif;
+	font-size: 11px;
+	color: white;
+	line-height: 1.8;
+	letter-spacing: 2.7px;
+	text-align: left;
+	transition: 0.5s;
+}
+
+
+p#one {
+	max-width: 240px;
+}
+
+p#two {
+	max-width: 70px;
+}
+
+p#three {
+	max-width: 450px;
+}
+
+p#four {
+	max-width: 250px;
+}
+
+p#five {
+	max-width: 450px;
+}
+
+p:hover {
+	color: #A99B1E;
+	transition: 0.5s;
+}
