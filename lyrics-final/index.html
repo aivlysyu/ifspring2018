@@ -8,6 +8,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|Shrikhand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 	<link rel="shorcut icon" href="./images/favicon.jpg" type="image/x-icon">
+	<script>
+        function play() {
+         var myAudio = document.getElementById("myAudio");
+        if (myAudio.paused) {
+          myAudio.play();
+         } 
+        }
+        function pause() {
+         var myAudio = document.getElementById("myAudio");
+         myAudio.pause();
+        }
+    </script>
 </head>
 
 <body>
@@ -96,6 +108,15 @@
 
 		</p>
 	</section>
+
+	<div id="audio">
+	        <button onclick="play();"><img src="./images/play.png" width="30px" height="30px"></button>
+            <button onclick="pause();"><img src="./images/pause.png" width="30px" height="30px"></button>
+            
+            <audio id="myAudio"
+                <source src="05 Your Best American Girl.m4a" type='audio/mpeg'>
+            </audio>
+    </div>
 
 </body>
 
