@@ -1,0 +1,31 @@
+body {
+	margin-left: 100px;
+	margin-top: 100px;
+	max-width: 450px;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	letter-spacing: 3px;
+	font-size: 23px;
+	margin-bottom: -12px;
+}
+
+h2 {
+	letter-spacing: 3px;
+	font-size: 16px;
+	color: grey;
+}
+
+h3 {
+	letter-spacing: 3px;
+	font-size: 14px;
+}
+
+li {
+	list-style-type: lower-roman;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin-bottom: 7px;
+}
