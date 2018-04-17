@@ -1,0 +1,105 @@
+html, body {
+	height: 100%;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+	font-size: 40px;
+	letter-spacing: 15px;
+	margin-bottom: 30px;
+
+}
+
+nav {
+	font-family: 'VT323', monospace;
+	font-size: 17px;
+	letter-spacing: 4px;
+}
+
+.link {
+	padding-right: 20px;
+}
+
+#link_history {
+	color: #23FF00;
+	padding-right: 5px;
+}
+
+#arrow {
+	margin-right: 20px;
+}
+
+.link:hover {
+	color: #23FF00;
+	text-decoration: none !important;
+}
+
+#info {
+	margin-top: 100px;
+	margin-left: 250px;
+	max-width: 800px;
+}
+
+
+#header {
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+#a:hover {
+	color: red;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+
+h3 {
+	font-family: 'VT323', monospace;
+	font-size: 17px;
+	letter-spacing: 4px;
+	margin-bottom: 15px;
+}
+
+p {
+	display: inline;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 10px;
+	letter-spacing: 1.8px;
+	line-height: 1.6;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+#blink2 {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to{opacity: 0;}
+}
+
+#historyyay {
+	margin-top: 150px;
+	margin-left: 250px;
+	display: inline-block;
+	position: absolute;
+	height: 1400px;
+	width: 850px;
+	column-count: 2;
+	column-gap: 100px;
+	margin-bottom: 150px;
+	column-rule-color: black;
+	column-rule-width: 1px;
+	column-rule-style: solid;
+}
