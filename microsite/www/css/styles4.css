@@ -1,0 +1,133 @@
+html, body {
+	height: 100%;
+
+}
+
+body {
+	background-color: black;
+	color: white;
+    padding: 0;
+    margin: 0;
+	margin-bottom: 100px;
+	overflow: scroll;
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+	font-size: 40px;
+	letter-spacing: 15px;
+	margin-bottom: 30px;
+
+}
+
+nav {
+	font-family: 'VT323', monospace;
+	font-size: 17px;
+	letter-spacing: 4px;
+}
+
+.link {
+	padding-right: 20px;
+}
+
+#link_sd {
+	color: #23FF00;
+	padding-right: 5px;
+}
+
+#arrow {
+	margin-right: 20px;
+}
+
+.link:hover {
+	color: #23FF00;
+	text-decoration: none !important;
+}
+
+#info {
+	margin-top: 100px;
+	margin-left: 250px;
+	max-width: 800px;
+}
+
+
+#header {
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+p {
+	display: inline;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	letter-spacing: 2px;
+	line-height: 1.9;
+}
+
+#a:hover {
+	color: red;
+}
+
+.products {
+  width: 900px;
+  margin-left: 250px;
+  margin-top: 150px;
+  height: 1300px;
+}
+
+b {
+  font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.pic {
+    position: relative;
+    float: left;
+    cursor: pointer;
+    margin: 20px;
+    margin-bottom: 120px;
+}
+
+.pic img {
+	width: 250px;
+	height: 250px;
+}
+
+.pic img:hover {
+	filter: invert(100%);
+}
+
+
+span.text {
+	margin-top: 10px;
+  cursor: pointer;
+  position: absolute;
+  display: table-cell;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+  display: table;
+  display: block;
+}
+
+span.text:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+#blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to{opacity: 0;}
+}
