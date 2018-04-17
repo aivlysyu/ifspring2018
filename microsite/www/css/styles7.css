@@ -1,0 +1,139 @@
+html, body {
+	height: 100%;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+	margin-bottom: 100px;
+	overflow: scroll;
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+	font-size: 40px;
+	letter-spacing: 15px;
+	margin-bottom: 30px;
+
+}
+
+nav {
+	font-family: 'VT323', monospace;
+	font-size: 17px;
+	letter-spacing: 4px;
+}
+
+.link {
+	padding-right: 20px;
+}
+
+#link_sources {
+	color: #23FF00;
+	padding-right: 5px;
+}
+
+#arrow {
+	margin-right: 20px;
+}
+
+.link:hover {
+	color: #23FF00;
+	text-decoration: none !important;
+}
+
+#info {
+	margin-top: 100px;
+	margin-left: 250px;
+	max-width: 800px;
+}
+
+
+#header {
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+
+#sources {
+	margin-top: 150px;
+	margin-left: 250px;
+}
+.sources {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	letter-spacing: 2px;
+	line-height: 1.9;
+	display: block;
+}
+
+a.sources:hover {
+	color: red;
+}
+
+p {
+	display: inline;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	letter-spacing: 2px;
+	line-height: 1.9;
+}
+
+#a:hover {
+	color: red;
+}
+
+#again {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  display: inline-block;
+  float: left;
+  margin-right: 75px;
+}
+
+#again img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+#again:hover {
+	cursor: pointer;
+}
+
+#whatimg img.before:active {
+  opacity:1;
+}
+
+#again img.after {
+	opacity: 0;
+}
+
+#again:active img.before {
+	opacity: 0;
+}
+
+#again:active img.after {
+	opacity: 1;
+	transform: 
+}
+
+#blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to{opacity: 0;}
+}
