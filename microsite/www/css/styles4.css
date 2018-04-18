@@ -10,6 +10,9 @@ body {
     margin: 0;
 	margin-bottom: 100px;
 	overflow: scroll;
+	align-content: center;
+	margin-left: auto;
+	max-width: 80%;
 }
 
 h1 {
@@ -46,14 +49,12 @@ nav {
 
 #info {
 	margin-top: 100px;
-	margin-left: 250px;
 	max-width: 800px;
 }
 
 
 #header {
 	margin-top: 100px;
-	margin-left: 250px;
 }
 
 a {
@@ -75,7 +76,6 @@ p {
 
 .products {
   width: 900px;
-  margin-left: 250px;
   margin-top: 150px;
   height: 1300px;
 }
@@ -130,4 +130,10 @@ span.text:hover {
 
 @keyframes blink {
   to{opacity: 0;}
+}
+
+#everything {
+	max-width: 80%;
+	padding: 0;
+	margin: auto 0;
 }
