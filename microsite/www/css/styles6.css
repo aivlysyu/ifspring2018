@@ -86,13 +86,14 @@ p {
 	color: red;
 }
 
+@keyframes blink {
+  to{opacity: 0;}
+}
+
 #blink2 {
   animation: blink 1s infinite;
 }
 
-@keyframes blink {
-  to{opacity: 0;}
-}
 
 #content {
 	margin-top: 150px;
