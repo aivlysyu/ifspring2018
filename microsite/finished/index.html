@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>darknet market.</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|VT323" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+<script> 
+		function typeEffect(element, speed) {
+	var text = $(element).text();
+	$(element).html('');
+	
+	var i = 0;
+	var timer = setInterval(function() {
+					if (i < text.length) {
+						$(element).append(text.charAt(i));
+						i++;
+					} else {
+						clearInterval(timer);
+					}
+				}, speed);
+}
+
+$( document ).ready(function() {
+  var speed = 150;
+  var delay = $('h1').text().length * speed + speed;
+  typeEffect($('h1'), speed);
+  setTimeout(function(){
+    $('a').css('display', 'inline-block');
+    typeEffect($('a'), speed);
+  }, delay);
+});
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div id="container">
+	<div id="content">
+	<h1>darknet market.</h1>
+	<a id="enter" href="glitch.html" title="hello">enter</a>
+	</div>
+	</div>
+</html>
