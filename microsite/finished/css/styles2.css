@@ -1,0 +1,131 @@
+html, body {
+	height: 100%;
+
+}
+
+body {
+	background-color: black;
+	color: white;
+	overflow: scroll;
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+	font-size: 40px;
+	letter-spacing: 15px;
+	margin-bottom: 30px;
+
+}
+
+nav {
+	font-family: 'VT323', monospace;
+	font-size: 17px;
+	letter-spacing: 4px;
+}
+
+.link {
+	padding-right: 20px;
+}
+
+#link_what {
+	color: #23FF00;
+	padding-right: 5px;
+}
+
+#arrow {
+	margin-right: 20px;
+}
+
+.link:hover {
+	color: #23FF00;
+	text-decoration: none !important;
+}
+
+#info {
+	margin-top: 150px;
+	max-width: 900px;
+}
+
+
+#header {
+	margin-top: 100px;
+	max-width: 900px;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+p {
+	display: inline;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	letter-spacing: 2px;
+	line-height: 1.9;
+	width: 400px;
+}
+
+#whatimg {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  display: inline-block;
+  float: left;
+  margin-right: 75px;
+}
+
+#whatimg img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+#whatimg:hover {
+	cursor: pointer;
+}
+
+#whatimg img.before:active {
+  opacity:1;
+}
+
+#whatimg img.after {
+	opacity: 0;
+}
+
+#whatimg:active img.before {
+	opacity: 0;
+}
+
+#whatimg:active img.after {
+	opacity: 1;
+	transform: 
+}
+
+#a:hover {
+	color: red;
+}
+
+#bm:hover {
+	color: red;
+	cursor: no-drop;
+}
+
+#blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to{opacity: 0;}
+}
+
+#everything {
+	width: 900px;
+	margin: 0 auto;
+}
