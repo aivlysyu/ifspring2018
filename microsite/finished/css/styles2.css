@@ -6,7 +6,10 @@ html, body {
 body {
 	background-color: black;
 	color: white;
-	overflow: scroll;
+}
+
+::-webkit-scrollbar {
+display: none;
 }
 
 h1 {

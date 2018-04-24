@@ -7,7 +7,10 @@ body {
 	background-color: black;
 	color: white;
 	margin-bottom: 100px;
-	overflow: scroll;
+}
+
+::-webkit-scrollbar {
+display: none;
 }
 
 h1 {
