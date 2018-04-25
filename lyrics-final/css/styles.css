@@ -35,10 +35,6 @@ h2 {
 	bottom: 10%;
 }
 
-.btn {
-	margin-left: ;
-}
-
 a#btn_fb {
 	transition: 0.5s;
 }
@@ -169,7 +165,7 @@ button:hover {
 }
 	#corner {
 		position: fixed;
-		left: 70%;
+		left: 60%;
 		top: 70%;
 	}
 	div.button {
@@ -237,9 +233,6 @@ button:hover {
 
 
 
-
-
-
 @media screen and (max-width: 500px){
 	body { 
 	background-position: 49%;
@@ -250,7 +243,7 @@ button:hover {
 	font-size: 20px;
 	letter-spacing: 2px;
 	line-height: 1.3;
-	margin-bottom: -5px;
+	margin-bottom: -15px;
 	}
 
 	h2 {
@@ -261,7 +254,6 @@ button:hover {
 	#corner {
 		position: fixed;
 		left: 45%;
-		top: 79%;
 	}
 	div.button {
 		display: none;
