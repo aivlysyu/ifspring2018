@@ -3,6 +3,10 @@ html, body {
 
 }
 
+::-webkit-scrollbar {
+display: none;
+}
+
 h3, h4 {
 	text-align: center;
 }
