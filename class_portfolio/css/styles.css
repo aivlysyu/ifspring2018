@@ -48,13 +48,13 @@ h4 {
 	width: 200px;
 	height: 200px;
 	transition: 0.4s;
+	filter: grayscale(100%);
 }
 
 .pic img:hover {
-	filter: brightness(50%);
+	filter: grayscale(0%);
 	transition: 0.4s;
 }
-
 
 p.text {
   cursor: pointer;
